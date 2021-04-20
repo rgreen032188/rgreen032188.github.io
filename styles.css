@@ -1,0 +1,216 @@
+
+
+#kast-logo-horizontal-color-white {
+    position: relative;
+    z-index: 1;
+    width: 201px;
+    height: auto;
+    margin-top: 18px;
+    float:left;
+}
+
+/* li { */
+
+/* }  */
+
+/* ul {
+    float: right;
+}  */
+
+header {
+    background-color: black;
+    height: 70px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.myButton {
+	
+	background-color:transparent;
+	border-radius:1px;
+	border:3px solid #ffffff;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:1px 5px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.button1 {
+    float: right;
+}
+
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.wrapper {
+    background-image: url(./assets/gradient-violet-bg.jpg);
+    padding-bottom:110px ;
+}
+
+.whatIsKast {
+    background-image: url(./assets/green-bg.jpg);
+    text-align: center;
+    color: white;
+    height: 1000px;
+    margin-top: 400px;
+    
+}
+.whatIsKast h1 {
+    text-align: center;
+    padding-top: 250px;
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    font-family: Arial;
+    
+    ;
+}
+
+  /* Links inside the navbar */
+.navbar a {
+    /* float: left; */
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+  /* The dropdown container */
+.dropdown{
+    /*float: right;*/
+    overflow: hidden;
+    display: inline-block;
+  
+}
+
+  /* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+
+}
+
+
+
+  /* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+  /* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+  /* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+Show the dropdown menu on hover
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.watchparty { 
+    text-align: center;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.wrapper1  {
+    display: inline-flexbox;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin: 20px;
+}
+
+h2 { 
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+}
+
+/* .col-md-4 {
+    min-height: 85px;
+    max-height: 85px;
+    vertical-align: baseline;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+} */
+
+.col-md-4 {
+    display: inline-block;
+    justify-content: space-evenly; 
+    align-items: center;
+
+}
+
+
+h1 {
+    font-size: 65px;
+}
+
+.imglogo {
+    height: 70px;
+    width: auto;
+    display: block;
+    margin-left: 44px;
+    margin-right: 44px;
+    margin-top: 0;
+    margin-bottom: 75px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.orangeBtn {
+    background-color: #FE9000;
+    color: white;
+    font-weight: 700;
+    width: 15%;
+    height: 55px;
+    padding: 0px 16px;
+}

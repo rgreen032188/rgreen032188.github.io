@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <!--Google Fonts Link-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!--Navigation Bar w/ Logo-->
+    <div class="wrapper">
+        <div class="navbar">
+            <img src="./assets/kast-logo-horizontal-color-white.png" alt="logo"
+                id="kast-logo-horizontal-color-white">
+            <nav>
+                <div class="dropdown">
+                    <button href="#" class="dropbtn">About
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">What is Kast?</a>
+                        <a href="#">Kast TV</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Press Releases</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Help
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Contact Support</a>
+                        <a href="#">FAQ's</a>
+                        <a href="#">Get Kast</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Community
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Community Guidelines</a>
+                        <a href="#">Founders Hall Of Fame</a>
+                    </div>
+                </div>
+
+
+                <div class="dropdown">
+                    <button class="dropbtn">Premium
+                        <!-- <a href="#home">Premium</a> -->
+                    </button>
+                </div>
+
+                <div class="button1">
+                    <button class="myButton">
+                        OPEN KAST
+                    </button>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="watchparty">
+            <img src="./assets/laptop-large-p-800.png" />
+            <h1>Watch parties made easy.</h1>
+            <p>Watch <strong>whatever you want </strong>with friends online: movies, TV <br>
+                shows, you name it. Share your screen and camera or launch <br>
+                content directly from Kast TV in your watch parties. Join <br>
+                millions of kasters today</p>
+
+                <button class="orangeBtn">OPEN KAST</button>
+
+        </div>
+    </div>
+    <h2>Featured in</h2>
+    <div class="wrapper1">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 logo" id="logo">
+                            <img alt="Bootstrap Image Preview"  class="imglogo" src="./assets/wired-logo.png" />
+                        </div>
+                        <div class="col-md-4 logo" id="logo">
+                            <img alt="Bootstrap Image Preview"  class="imglogo" src="./assets/nerdist-logo.png" />
+                        </div>
+                        <div class="col-md-4 logo" id="logo">
+                            <img alt="Bootstrap Image Preview"  class="imglogo" src="./assets/yahoo-finance-logo.png" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 logo">
+                            <img alt="Bootstrap Image Preview" class="imglogo" src="./assets/evening-standard-logo.png" />
+                        </div>
+                        <div class="col-md-4 logo">
+                            <img alt="Bootstrap Image Preview" class="imglogo" src="./assets/bbc-logo.png" />
+                        </div>
+                        <div class="col-md-4 logo">
+                            <img alt="Bootstrap Image Preview" class="imglogo" src="./assets/daily-mail-logo.png" />
+                        </div>
+                    </div>
+                    <div class="quote">
+                        <!-- <div class="col-md-12"> -->
+                            <p>"Kast has probably never been more relevant — or necessary — than it is right now."</p>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--<img src="./Static_Assets/wired-logo.png">
+        <img src="./Static_Assets/nerdist-logo.png">
+        <img src="./Static_Assets/yahoo-finance-logo.png">
+        <img src="./Static_Assets/evening-standard-logo.png">
+        <img src="./Static_Assets/bbc-logo.png">
+        <img src="./Static_Assets/daily-mail-logo.png">
+    <h2>"Kast has probably never been more relevant — or necessary — than it is right now."</h2>-->
+    </div>
+    <div class="whatIsKast">
+        <h1>What is Kast?</h1>
+        <h2>
+            <p>Looking for a place to watch movies, play, and hang out with friends?<br>
+                Hop onto Kast and start sharing experiences real-time!</p>
+        </h2>
+
+        <h2>
+            <p>Up to 20 people can share their screen or camera and another 100 can<br>
+                watch in a party. And with Kast TV, you can now stream directly from the cloud.</p>
+        </h2>
+
+        <button class="orangeBtn">OPEN KAST</button>
+
+    </div>
+    <!-- <script>
+    let dropdownBtn = document.querySelector('.dropbtn');
+    let menuContent = document.querySelector('.dropdown-content');
+    dropdownBtn.addEventListener('click',()=>{
+        if(menuContent.style.display===""){
+            menuContent.style.display="block";
+        } else {
+            menuContent.style.display="";
+        }
+    })
+    </script> -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
